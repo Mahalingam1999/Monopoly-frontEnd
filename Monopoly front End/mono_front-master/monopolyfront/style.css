@@ -1,0 +1,32 @@
+table{
+   background-color:rgb(31, 168, 192);
+    margin-left: 300px;
+    margin-top: 20px;
+    position: absolute;
+}
+td{
+    border: 10px;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    border-color: black;
+    border-style: solid;
+}
+.centerbox td:nth-child(even),.centerbox td:nth-child(3){
+    background-color:rgb(216, 60, 12);
+    border-style: none;
+}
+#player1{
+margin-left: 100px;
+margin-top: 200px;
+}
+#player2{
+    margin-left: 800px;
+}
+button{
+    padding: 20px;
+}
+img{
+    height: 20px;
+    width: 10px;
+}
